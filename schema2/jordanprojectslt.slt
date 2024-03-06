@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slt:SLT bsid="65535" xsi:schemaLocation="tag:atsc.org,2016:XMLSchemas/ATSC3/Delivery/SLT/1.0/ SLT-1.0-20211209.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:slt="tag:atsc.org,2016:XMLSchemas/ATSC3/Delivery/SLT/1.0/">
+	<slt:SLTCapabilities>String</slt:SLTCapabilities>
+	<slt:SLTInetUrl urlType="1">http://www.examplebroadband.com</slt:SLTInetUrl>
+	<slt:Service protected="false" majorChannelNo="8" serviceId="23423" globalServiceID="examplebroadband.com/8.1" minorChannelNo="1" sltSvcSeqNum="1" serviceCategory="1" shortServiceName="examplebroadband-1">
+      <slt:SvcInetUrl urlType="1">http://www.examplebroadband.com</slt:SvcInetUrl>
+	</slt:Service>
+	<slt:Service protected="false" majorChannelNo="8" serviceId="23423" globalServiceID="examplebroadband.com/8.2" minorChannelNo="2" sltSvcSeqNum="1" serviceCategory="1" shortServiceName="examplebroadband-1">
+      <slt:SvcInetUrl urlType="1">http://www.examplebroadband.local</slt:SvcInetUrl>
+	</slt:Service>
+</slt:SLT>
